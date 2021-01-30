@@ -1,6 +1,7 @@
 # TARIMSAL KURAKLIK HARİTALARININ İNTERNETTEN KULLANICILARA SUNUMU
 ## Çalışmanın Amacı
 Çalışma açık kaynak kodlu CBS yazılımları kullanılarak tarımsal kuraklık haritalarının mekânsal bir veri tabanında saklanması, daha sonra bu verinin WGS 84 koordinat sistemi referans alınmak suretiyle geotiff veri formatına getirilmesiyle başlar. Bir sonraki adımda ise bu verilerin OpenLayers kütüphanesi ile geliştirilecek bir web uygulaması üzerinden; herhangi bir CBS bilgisi olmayan ve CBS programlarını kullanamayan vatandaşların hızlı ve kolay bir şekilde bu coğrafi verilere ulaşmasının sağlanması hedeflenir. Sonuç olarak web servislerinin hazırlanması ve geliştirilecek web uygulaması ile uzak kullanıcıların kullanımına açılması konularını kapsayan örnek bir uygulama geliştirilmesi amaçlanmaktadır. 
+Tarımsal Kuraklık Haritalarının Sunumunun Yapıldığı İnternet Sitesi [jeodezi.net](https://jeodezi.net/).
 ## Çalışma Kapsamındaki Tanımlamalar
 ### GeoServer:
 Java tabanlı yazılmış olan GeoServer, coğrafi verilerin OGC standartlarında web servisleri halinde sunulmasını sağlar. GeoServer, vektör (Oracle Spatial, ArcSDE, DB2, MySQL, PostGIS data, Shape files ve Web servisleri) ve raster (ArcGrid, GeoTiff, Jpeg2000, ECW, MrSID) verilerini kullanabilmektedir.
